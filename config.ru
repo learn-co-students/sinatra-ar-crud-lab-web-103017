@@ -6,4 +6,6 @@ if ActiveRecord::Migrator.needs_migration?
 end
 
 
+
 run ApplicationController
+use Rack::MethodOverride
